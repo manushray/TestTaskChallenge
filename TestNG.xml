@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<suite name = "Insly Test Challenge"  verbose="10" parallel="none">
+	<test name="Insly Automation" group-by-instances="true"  preserve-order="true">
+		
+
+		<classes>
+			
+			<class name="insly.TestChallenge.insly.TestChallenge.applicationPageTest" />
+		
+		</classes>
+ </test>
+
+</suite>
