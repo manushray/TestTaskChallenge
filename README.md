@@ -21,7 +21,9 @@ https://github.com/manushray/TestTaskChallenge.git
 Open the Eclipse follow the below steps:
 Click on the "File > Import " Navigate to Maven > Existing Maven Projects & click on "Next". Browse to the location of folder where you have clone the code & click on "Finish" I have created a partial Automation Framework comprise of (Selenium+JAVA+Page Object Model+TestNG+Extent Report) where my "Base" class is Parent of all the classes which is present under package name "insly.TestChallenge.insly.TestChallenge.codeBase" Reading of config.properties , driver , selection of browser type all these activities are done in "Base" Class As I have made my code dynamic from where you can change the parameter and data set/Test Scneario by changing in the config.properties file which is present under package name "/src/main/java/insly/TestChallenge/insly/TestChallenge/properties"
 
-You dont have to do any changes , just run the project as mention below(The full script runs in 2.66min so please dont kill the browser if it takes time to identify/load the page.
+You dont have to do any changes , just run the project as mention below(The full script runs for couple of min so please dont kill the browser if it takes time to identify/load the page.
+
+If you want to re-run the project again & again then please do change the parameter "company_name" & "admin_mail_id" in "config.properties" 
 
 Command Line Command:
 go to the project folder and run the below command: 
